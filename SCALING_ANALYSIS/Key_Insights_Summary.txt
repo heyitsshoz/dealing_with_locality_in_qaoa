@@ -1,0 +1,422 @@
+=== QAOA SCALING INSIGHTS: DIAMETER VS N ===
+
+Topology: 4-Regular | Base Diameter: 3
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.8571)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.8740 (+1.97% over baseline)
+         Range      : [0.7917 worst  ->  0.9643 best]
+         Std Dev    : 0.0461 (Across 7 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9974 (+16.36% over baseline)
+         Range      : [0.9583 worst  ->  1.0000 best]
+         Std Dev    : 0.0088 (Across 7 different N sizes)
+  Depth p=2 (Baseline AR: 0.9825)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9851 (+0.27% over baseline)
+         Range      : [0.9361 worst  ->  1.0000 best]
+         Std Dev    : 0.0233 (Across 7 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9999 (+1.77% over baseline)
+         Range      : [0.9990 worst  ->  1.0000 best]
+         Std Dev    : 0.0003 (Across 7 different N sizes)
+  Depth p=3 (Baseline AR: 0.9984)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9917 (+-0.67% over baseline)
+         Range      : [0.9225 worst  ->  1.0000 best]
+         Std Dev    : 0.0191 (Across 7 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9951 (+-0.32% over baseline)
+         Range      : [0.9555 worst  ->  1.0000 best]
+         Std Dev    : 0.0095 (Across 7 different N sizes)
+
+Topology: 4-Regular | Base Diameter: 4
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.8612)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9173 (+6.51% over baseline)
+         Range      : [0.8329 worst  ->  1.0000 best]
+         Std Dev    : 0.0691 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9970 (+15.77% over baseline)
+         Range      : [0.9615 worst  ->  1.0000 best]
+         Std Dev    : 0.0107 (Across 3 different N sizes)
+  Depth p=2 (Baseline AR: 0.9416)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9856 (+4.67% over baseline)
+         Range      : [0.9226 worst  ->  1.0000 best]
+         Std Dev    : 0.0279 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9988 (+6.08% over baseline)
+         Range      : [0.9915 worst  ->  1.0000 best]
+         Std Dev    : 0.0026 (Across 3 different N sizes)
+  Depth p=3 (Baseline AR: 0.9460)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9849 (+4.12% over baseline)
+         Range      : [0.9054 worst  ->  1.0000 best]
+         Std Dev    : 0.0305 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9894 (+4.59% over baseline)
+         Range      : [0.9485 worst  ->  1.0000 best]
+         Std Dev    : 0.0203 (Across 3 different N sizes)
+
+Topology: Bipartite | Base Diameter: 4
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.7378)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.7538 (+2.17% over baseline)
+         Range      : [0.7069 worst  ->  0.9091 best]
+         Std Dev    : 0.0517 (Across 9 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9767 (+32.38% over baseline)
+         Range      : [0.9384 worst  ->  1.0000 best]
+         Std Dev    : 0.0251 (Across 9 different N sizes)
+  Depth p=2 (Baseline AR: 0.9439)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9790 (+3.72% over baseline)
+         Range      : [0.9005 worst  ->  1.0000 best]
+         Std Dev    : 0.0349 (Across 9 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9995 (+5.89% over baseline)
+         Range      : [0.9962 worst  ->  1.0000 best]
+         Std Dev    : 0.0011 (Across 9 different N sizes)
+  Depth p=3 (Baseline AR: 0.9935)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9947 (+0.12% over baseline)
+         Range      : [0.9798 worst  ->  1.0000 best]
+         Std Dev    : 0.0086 (Across 9 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9892 (+-0.43% over baseline)
+         Range      : [0.9538 worst  ->  1.0000 best]
+         Std Dev    : 0.0164 (Across 9 different N sizes)
+
+Topology: Bipartite | Base Diameter: 5
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.7751)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.8023 (+3.51% over baseline)
+         Range      : [0.7388 worst  ->  0.9375 best]
+         Std Dev    : 0.0547 (Across 9 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9574 (+23.53% over baseline)
+         Range      : [0.8864 worst  ->  1.0000 best]
+         Std Dev    : 0.0307 (Across 9 different N sizes)
+  Depth p=2 (Baseline AR: 0.9178)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9609 (+4.70% over baseline)
+         Range      : [0.8683 worst  ->  1.0000 best]
+         Std Dev    : 0.0412 (Across 9 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9982 (+8.77% over baseline)
+         Range      : [0.9790 worst  ->  1.0000 best]
+         Std Dev    : 0.0049 (Across 9 different N sizes)
+  Depth p=3 (Baseline AR: 0.9870)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9813 (+-0.58% over baseline)
+         Range      : [0.9057 worst  ->  1.0000 best]
+         Std Dev    : 0.0288 (Across 9 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9886 (+0.17% over baseline)
+         Range      : [0.9283 worst  ->  1.0000 best]
+         Std Dev    : 0.0207 (Across 9 different N sizes)
+
+Topology: Bipartite | Base Diameter: 6
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.8040)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.8524 (+6.02% over baseline)
+         Range      : [0.7609 worst  ->  1.0000 best]
+         Std Dev    : 0.1066 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9671 (+20.28% over baseline)
+         Range      : [0.9286 worst  ->  1.0000 best]
+         Std Dev    : 0.0344 (Across 3 different N sizes)
+  Depth p=2 (Baseline AR: 0.9117)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9436 (+3.51% over baseline)
+         Range      : [0.8889 worst  ->  1.0000 best]
+         Std Dev    : 0.0544 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9989 (+9.57% over baseline)
+         Range      : [0.9948 worst  ->  1.0000 best]
+         Std Dev    : 0.0023 (Across 3 different N sizes)
+  Depth p=3 (Baseline AR: 0.9597)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9636 (+0.41% over baseline)
+         Range      : [0.9303 worst  ->  1.0000 best]
+         Std Dev    : 0.0337 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9865 (+2.79% over baseline)
+         Range      : [0.9511 worst  ->  1.0000 best]
+         Std Dev    : 0.0204 (Across 3 different N sizes)
+
+Topology: Bipartite | Base Diameter: 7
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.7965)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.8151 (+2.32% over baseline)
+         Range      : [0.7381 worst  ->  0.8889 best]
+         Std Dev    : 0.0754 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9643 (+21.06% over baseline)
+         Range      : [0.9383 worst  ->  1.0000 best]
+         Std Dev    : 0.0320 (Across 3 different N sizes)
+  Depth p=2 (Baseline AR: 0.9425)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9690 (+2.81% over baseline)
+         Range      : [0.9524 worst  ->  1.0000 best]
+         Std Dev    : 0.0269 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 1.0000 (+6.10% over baseline)
+         Range      : [0.9999 worst  ->  1.0000 best]
+         Std Dev    : 0.0000 (Across 3 different N sizes)
+  Depth p=3 (Baseline AR: 0.9584)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9908 (+3.38% over baseline)
+         Range      : [0.9726 worst  ->  1.0000 best]
+         Std Dev    : 0.0158 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9951 (+3.83% over baseline)
+         Range      : [0.9852 worst  ->  1.0000 best]
+         Std Dev    : 0.0085 (Across 3 different N sizes)
+
+Topology: Bipartite | Base Diameter: 9
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.8500)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9000 (+5.88% over baseline)
+         Range      : [0.9000 worst  ->  0.9000 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9500 (+11.76% over baseline)
+         Range      : [0.9500 worst  ->  0.9500 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+  Depth p=2 (Baseline AR: 0.9000)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9500 (+5.56% over baseline)
+         Range      : [0.9500 worst  ->  0.9500 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 1.0000 (+11.11% over baseline)
+         Range      : [1.0000 worst  ->  1.0000 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+  Depth p=3 (Baseline AR: 0.9500)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9704 (+2.14% over baseline)
+         Range      : [0.9704 worst  ->  0.9704 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9998 (+5.24% over baseline)
+         Range      : [0.9998 worst  ->  0.9998 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+
+Topology: Tree | Base Diameter: 4
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.8682)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9286 (+6.95% over baseline)
+         Range      : [0.9286 worst  ->  0.9286 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9643 (+11.07% over baseline)
+         Range      : [0.9286 worst  ->  1.0000 best]
+         Std Dev    : 0.0505 (Across 1 different N sizes)
+  Depth p=2 (Baseline AR: 1.0000)
+    -> XX_Mixer @ d=1:
+         Average AR : 1.0000 (+-0.00% over baseline)
+         Range      : [1.0000 worst  ->  1.0000 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 1.0000 (+-0.00% over baseline)
+         Range      : [1.0000 worst  ->  1.0000 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+  Depth p=3 (Baseline AR: 1.0000)
+    -> XX_Mixer @ d=1:
+         Average AR : 1.0000 (+-0.00% over baseline)
+         Range      : [1.0000 worst  ->  1.0000 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 1.0000 (+-0.00% over baseline)
+         Range      : [1.0000 worst  ->  1.0000 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+
+Topology: Tree | Base Diameter: 5
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.8750)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9375 (+7.14% over baseline)
+         Range      : [0.9375 worst  ->  0.9375 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9009 (+2.96% over baseline)
+         Range      : [0.9009 worst  ->  0.9009 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+  Depth p=2 (Baseline AR: 0.9375)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9375 (+0.00% over baseline)
+         Range      : [0.9375 worst  ->  0.9375 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 1.0000 (+6.67% over baseline)
+         Range      : [1.0000 worst  ->  1.0000 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+  Depth p=3 (Baseline AR: 1.0000)
+    -> XX_Mixer @ d=1:
+         Average AR : 1.0000 (+-0.00% over baseline)
+         Range      : [1.0000 worst  ->  1.0000 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 1.0000 (+-0.00% over baseline)
+         Range      : [1.0000 worst  ->  1.0000 best]
+         Std Dev    : 0.0000 (Across 1 different N sizes)
+
+Topology: Tree | Base Diameter: 6
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.8414)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9295 (+10.48% over baseline)
+         Range      : [0.8636 worst  ->  1.0000 best]
+         Std Dev    : 0.0411 (Across 5 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9450 (+12.31% over baseline)
+         Range      : [0.9091 worst  ->  1.0000 best]
+         Std Dev    : 0.0271 (Across 5 different N sizes)
+  Depth p=2 (Baseline AR: 0.9278)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9848 (+6.14% over baseline)
+         Range      : [0.9375 worst  ->  1.0000 best]
+         Std Dev    : 0.0245 (Across 5 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 1.0000 (+7.78% over baseline)
+         Range      : [1.0000 worst  ->  1.0000 best]
+         Std Dev    : 0.0000 (Across 5 different N sizes)
+  Depth p=3 (Baseline AR: 0.9733)
+    -> XX_Mixer @ d=1:
+         Average AR : 1.0000 (+2.74% over baseline)
+         Range      : [0.9998 worst  ->  1.0000 best]
+         Std Dev    : 0.0000 (Across 5 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9997 (+2.72% over baseline)
+         Range      : [0.9983 worst  ->  1.0000 best]
+         Std Dev    : 0.0005 (Across 5 different N sizes)
+
+Topology: Tree | Base Diameter: 7
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.8297)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9078 (+9.40% over baseline)
+         Range      : [0.8846 worst  ->  0.9444 best]
+         Std Dev    : 0.0208 (Across 8 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9538 (+14.95% over baseline)
+         Range      : [0.9000 worst  ->  1.0000 best]
+         Std Dev    : 0.0316 (Across 8 different N sizes)
+  Depth p=2 (Baseline AR: 0.9268)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9468 (+2.16% over baseline)
+         Range      : [0.9123 worst  ->  1.0000 best]
+         Std Dev    : 0.0214 (Across 8 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9950 (+7.37% over baseline)
+         Range      : [0.9638 worst  ->  1.0000 best]
+         Std Dev    : 0.0105 (Across 8 different N sizes)
+  Depth p=3 (Baseline AR: 0.9553)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9646 (+0.97% over baseline)
+         Range      : [0.9057 worst  ->  1.0000 best]
+         Std Dev    : 0.0301 (Across 8 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9892 (+3.55% over baseline)
+         Range      : [0.9480 worst  ->  1.0000 best]
+         Std Dev    : 0.0162 (Across 8 different N sizes)
+
+Topology: Tree | Base Diameter: 8
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.8392)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9063 (+7.99% over baseline)
+         Range      : [0.8929 worst  ->  0.9231 best]
+         Std Dev    : 0.0134 (Across 5 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9501 (+13.21% over baseline)
+         Range      : [0.9231 worst  ->  1.0000 best]
+         Std Dev    : 0.0259 (Across 5 different N sizes)
+  Depth p=2 (Baseline AR: 0.9216)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9348 (+1.42% over baseline)
+         Range      : [0.9231 worst  ->  0.9583 best]
+         Std Dev    : 0.0138 (Across 5 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9897 (+7.39% over baseline)
+         Range      : [0.9607 worst  ->  1.0000 best]
+         Std Dev    : 0.0170 (Across 5 different N sizes)
+  Depth p=3 (Baseline AR: 0.9530)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9350 (+-1.88% over baseline)
+         Range      : [0.9130 worst  ->  0.9585 best]
+         Std Dev    : 0.0188 (Across 5 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9706 (+1.85% over baseline)
+         Range      : [0.9324 worst  ->  0.9990 best]
+         Std Dev    : 0.0224 (Across 5 different N sizes)
+
+Topology: Tree | Base Diameter: 9
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.8370)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9146 (+9.28% over baseline)
+         Range      : [0.9000 worst  ->  0.9545 best]
+         Std Dev    : 0.0212 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9350 (+11.71% over baseline)
+         Range      : [0.9138 worst  ->  0.9583 best]
+         Std Dev    : 0.0185 (Across 3 different N sizes)
+  Depth p=2 (Baseline AR: 0.9188)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9342 (+1.68% over baseline)
+         Range      : [0.9050 worst  ->  0.9583 best]
+         Std Dev    : 0.0259 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9887 (+7.61% over baseline)
+         Range      : [0.9652 worst  ->  1.0000 best]
+         Std Dev    : 0.0152 (Across 3 different N sizes)
+  Depth p=3 (Baseline AR: 0.9578)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9370 (+-2.17% over baseline)
+         Range      : [0.9026 worst  ->  0.9566 best]
+         Std Dev    : 0.0204 (Across 3 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9639 (+0.64% over baseline)
+         Range      : [0.9139 worst  ->  0.9998 best]
+         Std Dev    : 0.0375 (Across 3 different N sizes)
+
+Topology: Tree | Base Diameter: 10
+--------------------------------------------------
+  Depth p=1 (Baseline AR: 0.8482)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9048 (+6.67% over baseline)
+         Range      : [0.8929 worst  ->  0.9167 best]
+         Std Dev    : 0.0168 (Across 2 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9467 (+11.61% over baseline)
+         Range      : [0.9351 worst  ->  0.9583 best]
+         Std Dev    : 0.0164 (Across 2 different N sizes)
+  Depth p=2 (Baseline AR: 0.9226)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9434 (+2.26% over baseline)
+         Range      : [0.9286 worst  ->  0.9583 best]
+         Std Dev    : 0.0210 (Across 2 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9997 (+8.36% over baseline)
+         Range      : [0.9997 worst  ->  0.9998 best]
+         Std Dev    : 0.0001 (Across 2 different N sizes)
+  Depth p=3 (Baseline AR: 0.9435)
+    -> XX_Mixer @ d=1:
+         Average AR : 0.9257 (+-1.89% over baseline)
+         Range      : [0.9236 worst  ->  0.9277 best]
+         Std Dev    : 0.0029 (Across 2 different N sizes)
+    -> XX+YY_Mixer @ d=1:
+         Average AR : 0.9866 (+4.57% over baseline)
+         Range      : [0.9742 worst  ->  0.9989 best]
+         Std Dev    : 0.0175 (Across 2 different N sizes)
+
